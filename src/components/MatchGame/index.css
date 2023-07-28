@@ -1,0 +1,145 @@
+.match-game-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 150vh;
+}
+
+.header-container {
+  background-color: #2c0e3a;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.score-count-time-container {
+  display: flex;
+}
+.website-image {
+  width: 160px;
+  height: 40px;
+}
+.score-count {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 17px;
+}
+.score {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fec653;
+}
+
+.time-icon {
+  margin-top: 15px;
+  width: 20px;
+  height: 17px;
+}
+.seconds {
+  margin-top: 14px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fec653;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.match-image {
+  margin-top: 50px;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.image-list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.game-score-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trophy-image {
+  width: 50%;
+  height: 30%;
+  margin-top: 300px;
+}
+
+.score-card-image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 38%;
+  height: 68%;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .score-card-image-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    width: 350px;
+    height: 500px;
+    margin: 50px;
+  }
+  .trophy-image {
+    width: 280px;
+    height: 220px;
+    margin-top: 180px;
+  }
+  .match-image {
+    margin-top: 50px;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+}
+
+.score-card-heading {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.score-card-score {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.reset-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.restart-button {
+  background-color: #cf60c8;
+  padding: 10px;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

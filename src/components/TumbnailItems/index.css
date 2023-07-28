@@ -1,0 +1,19 @@
+.match-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 0px;
+}
+.button-image {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.image-button {
+  width: 90px;
+}
